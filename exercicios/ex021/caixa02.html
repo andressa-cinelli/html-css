@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+            
+        }
+        nav{
+           background-color: gray;
+           padding: 3px;
+            box-shadow: 5px 3px 7px 1px black;
+            
+        
+        }    
+        nav > a{
+            text-decoration:none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: gray;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 30px;
+        }
+        
+        
+        article{
+            background-color: white;
+        }
+        article > aside{
+            background-color: gray;
+        }
+
+        section > article {
+            background-color: gray;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        footer > p{
+            background-color: gray;
+            padding: 10px;
+            margin: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+
+
+    </header> 
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit voluptatem consectetur at, ducimus cupiditate rerum ex assumenda, debitis sed expedita molestiae. Soluta, voluptatibus illum. Repellat quidem nihil cupiditate aspernatur sit.</p>
+                <aside>
+                    <p>Escrito por Andressa</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Andressa</p>
+    </footer>
+
+</body>
+</html>
