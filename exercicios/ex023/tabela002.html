@@ -8,11 +8,17 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
-        table{
+        table {
             width: 500px;
-            border-collapse: collapse;
+            border-collapse:collapse;
+            position: relative;
         }
 
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
         caption{
             font-size: 1.5em;
             font-weight: bold;
@@ -21,25 +27,27 @@
 
         }
 
-        td, th{
-            border: 1px solid black;
-            padding: 10px;
-        }
-
-        thead{
-            background-color: gray;
-            color: white;
-        }
-        tfoot{
-            background-color: gray;
+         thead, tfoot {
+            background-color: #383838;
             color: white;
         }
 
-        tbody > tr:nth-child(2n){
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
             background-color: lightgray;
-            font-weight: bold;
-
         }
+
+
         
     </style>
 
@@ -58,8 +66,8 @@
                 TR, TD, TH
     -->   
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
-            <caption>População das Unidades Federativas</caption>
             <tr>
                 <th scope="col">Estado</th>
                 <th scope="col" style="width: 50px;">População</th>
@@ -178,10 +186,44 @@
         <tfoot>
             <tr>
                     <th scope="row">Total de Habitantes</th>
-                    <td>213 421 037</td>
+                    <td><strong> 213 421 037</strong></td>
             </tr>
         </tfoot>
     </table>     
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam saepe ut magnam reprehenderit, numquam impedit minus libero, illo et sunt sint modi quasi pariatur velit alias doloremque voluptatem sit.</p>
 </body>
 </html>
